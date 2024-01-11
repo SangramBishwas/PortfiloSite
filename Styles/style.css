@@ -14,6 +14,7 @@
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    cursor: pointer;
 }
 
 /* Nav Design */
@@ -79,7 +80,7 @@ nav a {
     max-width: 500px;
 }
 
-.banner-content>p {
+.banner-content > p {
     color: #757575;
     font-size: 18px;
     font-weight: 400;
@@ -88,6 +89,11 @@ nav a {
 }
 
 /* Main design */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
 
 /* About Design */
 .about {
@@ -104,10 +110,19 @@ nav a {
     font-weight: 700;
 }
 
-.desc {
+.description {
     color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.about-info-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
 }
