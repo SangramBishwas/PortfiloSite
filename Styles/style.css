@@ -178,3 +178,39 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
+
+/*  footer styles  */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    gap: 100px;
+    padding: 100px 200px;
+    margin-top: 100px;
+}
+
+.footer-title {
+    color: #181818;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a{
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.contact-form input[type="text"], input[type="email"], textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    background: #fff;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+}
